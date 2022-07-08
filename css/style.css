@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Zen+Tokyo+Zoo&display=swap");
+nav {
+  background-color: #EBC00C;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #EBC00C;
+  transition: 0.5s;
+  font-family: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+nav ul li a:hover {
+  background-color: rgb(212, 212, 212);
+  border-radius: 50px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 2em;
+}
+
+h1 {
+  font-size: "Raleway", sans-serif;
+  color: #EBC00C;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 4%;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */

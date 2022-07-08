@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.main{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+  
+}
+
+
+.main-s{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
+
+.main-c{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
+
+.main-m{
+    background-color:#ffffff9d;
+    width: 100%;
+    height: auto;
+}
+/*
+h1{
+    color: #EBC00C;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+
+H2{
+    color: #EBC00C;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+/*fin de mi titulo********/
+/*
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: #111111;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+/****************navbar****************/
+/*
+nav{
+    background-color:#EBC00C;
+}
+
+/*
+.nav ul li a{
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    background-color: #EBC00C;
+    transition:0.5s;
+
+}
+
+.nav a:hover{
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+}
+
+ /**************PAGINA INDEX************/
+
+
+.parrafo{
+    width:auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.726);
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px 5px 10px;
+    border-radius: 8px;
+    margin-block-start: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+P{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 0.9rem;
+    width:auto;
+    height: auto;
+}
+
+/*********animaciones******/
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+}
+  
+ to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+/************** FIN DE PAGINA INDEX************/
+
+
+/*********************PAGINA MULTIMEDIA*****************/
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;	
+  }
+
+ .altura-video{
+    display:block;
+    height: 50vh;
+ }
+
+ .altura-fotos{
+    display:block;
+    height: auto;
+ }
+ /*pagina multimedia*/
+
+
+/*********************PAGINA CONTACTO **********/
+/* formulario*/
+
+.formulario{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.849);
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    position:relative;
+    top: 100px;
+}
+
+
+label{
+    font-size: 0.8rem;
+}
+/* fin de formulario*/
+/*********************FIN DE PAGINA CONTACTO **********/
+
+/*fin de pagina de contacto*/
+
+
+/*****************este es mi footer************/
+
+.iconos a{
+    border-radius: 50%;
+}
+
+/******************fin de footer***********************/
+
